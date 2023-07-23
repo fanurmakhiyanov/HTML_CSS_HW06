@@ -1,0 +1,72 @@
+* {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.heading {
+    padding-left: 230px;
+    padding-right: 230px;
+    min-height: 75px;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_search {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 41px;
+}
+
+.content {
+    background-color: #F1E4E6;
+    height: 764px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_foto {
+
+}
+
+.verticalLine {
+    border-left: 12px solid #ff0000;
+  }
+
+  .p_brand {
+
+  }
+
+  .p_the_brand {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .p_luxerious {
+    color: #222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
