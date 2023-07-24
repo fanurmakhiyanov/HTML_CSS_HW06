@@ -34,7 +34,8 @@ body {
 
 .content {
     background-color: #F1E4E6;
-    height: 764px;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -44,7 +45,7 @@ body {
 }
 
 .main_foto {
-
+    height: auto
 }
 
 .verticalLine {
@@ -52,6 +53,7 @@ body {
   }
 
   .p_brand {
+    padding-left: 15px;
 
   }
 
@@ -60,7 +62,7 @@ body {
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    line-height: 80%;
   }
 
   .p_luxerious {
@@ -68,5 +70,166 @@ body {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 80%;
+  }
+
+  .p_fashion {
+    color: #F16D7F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80%;
+  }
+
+  .middle_blocks {
+    max-width: 1140px;
+    padding-top: 50px;
+    padding-left: calc(50% - 300px);
+    padding-right: calc(50% - 300px);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: start;
+    justify-items: center;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row: 4 / 6;
+   }
+
+  .elem1 {
+    width: 360px;
+    height: 260px;
+    background: url(img/1.png);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .elem2 {
+    width: 360px;
+    height: 260px;
+    background: url(img/2.png);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .elem3 {
+    width: 360px;
+    height: 260px;
+    background: url(img/3.png);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .elem4 {
+    width: 1140px;
+    height: 180px;
+    background: url(img/4.png);
+    grid-column: 1 / 4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .middle_blocks_top_text {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20%;
+  }
+
+  .middle_blocks_bottom_text {
+    display: flex;
+    justify-content: center;
+    color: #F16D7F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20%;
+  }
+
+  .catalog {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .catalog_text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .catalog_text_top {
+    color: #222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .catalog_text_bottom {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .catalog_items {
+    border: 1px solid #000;
+    max-width: 1140px;
+    padding-top: 50px;
+    padding-left: calc(50% - 300px);
+    padding-right: calc(50% - 300px);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: start;
+    justify-items: center;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .items {
+    border: 1px solid #000;
+    width: 360px;
+    height: 420px;
   }
